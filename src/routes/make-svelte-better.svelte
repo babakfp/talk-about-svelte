@@ -19,6 +19,13 @@
 	<meta name="description" content="Some feature requests and enhancements that need to happen in Svelte." />
 </svelte:head>
 
+<p>
+	<span>Also read:</span>
+	<a class="py-3 px-4" href="/">I Like Svelte But, I Hate It!</a>
+</p>
+<hr>
+<br>
+
 <h1>Make Svelte Better</h1>
 
 <CodeBlocksInHTML />
