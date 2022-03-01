@@ -1,7 +1,5 @@
 <script>
 	import CodeBlocksInHTML from '$lib/make-svelte-better/01. Code Blocks In HTML .md'
-	import EachBlocks from '$lib/make-svelte-better/02. Each Blocks .md'
-	import AwaitBlock from '$lib/make-svelte-better/03. Await Block .md'
 	import DynamicTag from '$lib/make-svelte-better/04. Dynamic Tag .md'
 	import ClassProp from '$lib/make-svelte-better/05. Class Prop .md'
 	import Translation from '$lib/make-svelte-better/06. Translation .md'
@@ -24,8 +22,6 @@
 <h1>Make Svelte Better</h1>
 
 <CodeBlocksInHTML />
-<EachBlocks />
-<AwaitBlock />
 <DynamicTag />
 <ClassProp />
 <Translation />
