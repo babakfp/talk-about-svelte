@@ -14,7 +14,7 @@
 
 - I got blocked for a lifetime from Svlete Discord group.
 - I got blocked for a lifetime from Svelte GitHub repositories.
-- I got blocked for a lifetime from [dev.to](https://dev.to) because of the article that I wrote about Svelte.
+- I got blocked for a lifetime from <a href="https://dev.to" target="_blank" rel="nofollow">dev.to</a> because of the article that I wrote about Svelte.
 - Svelte isn't a community project. It's just an open-source project.
 - Maintainers don't know anything about how to manage a community, manage a group, or simply anything!.
 - Toxic people live in the community and the maintainers don't do anything about it.
@@ -23,7 +23,7 @@
 
 ### I got blocked for a lifetime **from Svlete Discord group**
 
-Svelte documentation UI sucks, right? In 2021 I designed a UI and a logo for SvelteKit. I sent them to the Discord group and we talked about the design and related stuff with some people in the group. In the middle of the conversation, *suddenly I got blocked and removed completely from the group!*. I didn't find any of my messages in the Discord group. They probably cleaned up everything after removing me😄. [*You can download all UI and logo design source files I ever create for Svelte.*](https://bit.ly/3tf6mPL)
+Svelte documentation UI sucks, right? In 2021 I designed a UI and a logo for SvelteKit. I sent them to the Discord group and we talked about the design and related stuff with some people in the group. In the middle of the conversation, *suddenly I got blocked and removed completely from the group!*. I didn't find any of my messages in the Discord group. They probably cleaned up everything after removing me😄. <a href="https://bit.ly/3tf6mPL" target="_blank" rel="nofollow">*You can download all UI and logo design source files I ever create for Svelte.*</a>
 
 *This is the result of contributing to svelte:*
 
@@ -49,7 +49,7 @@ And here it is the comment that got me banned (this was removed after I got bann
 
 ![A screenshot of my GitHub account that shows I can't write comment in any SvelteJS repos, or I can't do even anything because I'm benned](/md/1.png)
 
-### I got blocked for a lifetime **from [dev.to](https://dev.to) because of the article that I wrote about Svelte**
+### I got blocked for a lifetime **from <a href="https://dev.to" target="_blank" rel="nofollow">dev.to</a> because of the article that I wrote about Svelte**
 
 The same day after I got blocked from Svelte GitHub, I write an article about it and it's got me blocked because someone reported it. I don't know who reported it but it was someone that wasn't happy about its content. Well, this is the article:
 
@@ -100,8 +100,8 @@ I already explained some of the negative points of Svelte but it's literally end
 
 I'm a front-end developer. I have around 5 years of experience in development in general. I also have a good knowledge and experience in UI design and Wordpress theme and plugin development. I'm a community manager since 4 or 5 years ago. I started to use Svelte in 2020.
 
-- [Contact me on Telegram](https://t.me/babakfp)
-- [My GitHub Account](https://github.com/babakfp)
+- <a href="https://t.me/babakfp" target="_blank" rel="nofollow">Contact me on Telegram</a>
+- <a href="https://github.com/babakfp" target="_blank" rel="nofollow">My GitHub Account</a>
 
 ### How I introduced to Svelte?
 
@@ -109,4 +109,4 @@ In a dev-related group, someone was talking about how Svelte is easy to use and 
 
 ---
 
-Thank you, [Telegram](https://telegram.org/). You are the reason that I have a backup from this messages😂🙏.
+Thank you, <a href="https://telegram.org/" target="_blank" rel="nofollow">Telegram</a>. You are the reason that I have a backup from this messages😂🙏.
