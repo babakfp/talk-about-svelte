@@ -63,6 +63,10 @@ body {
 			@apply absolute -top-2.5 left-2 font-black text-xl opacity-25;
 		}
 	}
+
+	hr {
+		@apply opacity-25;
+	}
 }
 
 a {
