@@ -1,5 +1,5 @@
 <script>
-	import ConditionalBlocks from '$lib/make-svelte-better/01. Conditional Blocks .md'
+	import CodeBlocksInHTML from '$lib/make-svelte-better/01. Code Blocks In HTML .md'
 	import EachBlocks from '$lib/make-svelte-better/02. Each Blocks .md'
 	import AwaitBlock from '$lib/make-svelte-better/03. Await Block .md'
 	import DynamicTag from '$lib/make-svelte-better/04. Dynamic Tag .md'
@@ -23,7 +23,7 @@
 
 <h1>Make Svelte Better</h1>
 
-<ConditionalBlocks />
+<CodeBlocksInHTML />
 <EachBlocks />
 <AwaitBlock />
 <DynamicTag />
