@@ -29,15 +29,27 @@
 <h1>Make Svelte Better</h1>
 
 <CodeBlocksInHTML />
+<hr>
 <DynamicHTMLTag />
+<hr>
 <PropNamedClass />
+<hr>
 <Translation />
+<hr>
 <ComponentDispatch />
+<hr>
 <CommentsSyntax />
+<hr>
 <CSSScope />
+<hr>
 <A11Y />
+<hr>
 <Docs />
+<hr>
 <ParentChilds />
+<hr>
 <ConnectChildToParent />
+<hr>
 <Tick />
+<hr>
 <DynamicClasses />
