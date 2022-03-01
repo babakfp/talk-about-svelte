@@ -7,10 +7,6 @@
 		-webkit-user-drag: none;
   }
 
-	::selection {
-		@apply bg-brand text-white;
-	}
-
   html {
 		@apply scroll-smooth; 
   }

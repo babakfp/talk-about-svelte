@@ -28,6 +28,10 @@ body {
 	h4 { @apply text-xl sm:text-2xl; }
 	h5 { @apply text-lg sm:text-xl; }
 	h6 { @apply sm:text-lg; }
+
+	h1 code, h2 code, h3 code, h4 code, h5 code, h6 code {
+		text-transform: none;
+	}
 	
 	img, video {
 		@apply rounded;

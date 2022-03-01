@@ -1,7 +1,7 @@
 <script>
 	import CodeBlocksInHTML from '$lib/make-svelte-better/01. Code Blocks In HTML .md'
-	import DynamicTag from '$lib/make-svelte-better/04. Dynamic Tag .md'
-	import ClassProp from '$lib/make-svelte-better/05. Class Prop .md'
+	import DynamicHTMLTag from '$lib/make-svelte-better/04. Dynamic HTML Tag .md'
+	import PropNamedClass from '$lib/make-svelte-better/05. Prop Named Class .md'
 	import Translation from '$lib/make-svelte-better/06. Translation .md'
 	import ComponentDispatch from '$lib/make-svelte-better/07. Component Dispatch .md'
 	import CommentsSyntax from '$lib/make-svelte-better/08. Comments Syntax .md'
@@ -22,8 +22,8 @@
 <h1>Make Svelte Better</h1>
 
 <CodeBlocksInHTML />
-<DynamicTag />
-<ClassProp />
+<DynamicHTMLTag />
+<PropNamedClass />
 <Translation />
 <ComponentDispatch />
 <CommentsSyntax />
