@@ -1,9 +1,8 @@
 <script>
-	import OtherContent from './OtherContent.svelte'
+	import OtherContent from '$lib/OtherContent.svelte'
 	import TheGithubComment from './TheGithubComment.md'
 	import TheDevtoArticle from './TheDevtoArticle.md'
 	import TheDevtoArticleReply from './TheDevtoArticleReply.md'
-	import TalkWithMaintainer from './TalkWithMaintainer.md'
 </script>
 
 # I like Svelte but, I hate it!
@@ -63,9 +62,18 @@ As I said, I got blocked also the article too. So, the article wasn't visible af
 
 I'm not sure but I think this is the reply that I write to a comment under the article.
 
-<TheDevtoArticleReply />
+<OtherContent>
+	<TheDevtoArticleReply />
+</OtherContent>
 
-<TalkWithMaintainer />
+### I talked with one of the maintainers of Svelte
+
+This is the whole conversation:
+
+<video controls>
+  <source src="/md/3.mp4" type="video/mp4">
+	<track kind="captions" label="A full conversation of me talking with one of the maintainers of Svelte on Discord">
+</video>
 
 ### Maintainers don't know anything about how to manage a community
 

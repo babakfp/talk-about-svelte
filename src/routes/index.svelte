@@ -1,5 +1,5 @@
 <script>
-	import README from '$lib/README.md'
+	import README from '$lib/i-like-svelte-but-i-hate-it/README.md'
 </script>
 
 <svelte:head>

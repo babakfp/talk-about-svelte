@@ -1,5 +1,5 @@
 <script>
-	import OtherContent from './OtherContent.svelte'
+	import OtherContent from '$lib/OtherContent.svelte'
 	import TheGithubComment from './TheGithubComment.md'
 </script>
 
