@@ -47,10 +47,6 @@ body {
 		@apply list-decimal;
 	}
 
-	a {
-		@apply text-brand-400 hover:underline decoration-wavy break-words;
-	}
-
 	blockquote {
 		@apply relative bg-white bg-opacity-5 p-4 rounded leading-6 text-sm text-gray-300;
 
@@ -63,4 +59,20 @@ body {
 			@apply absolute -top-2.5 left-2 font-black text-xl opacity-25;
 		}
 	}
+}
+
+a {
+	@apply text-brand-400 hover:underline decoration-wavy break-words;
+}
+
+:not(pre)>code[class*=language-], pre[class*=language-] {
+	@apply bg-white bg-opacity-5 rounded leading-7;
+}
+
+:not(pre)>code {
+	@apply py-0.5 px-1 bg-white bg-opacity-10 rounded;
+}
+
+code, code[class*=language-], pre[class*=language-] {
+	font-family: "MonoLisa", Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace
 }
