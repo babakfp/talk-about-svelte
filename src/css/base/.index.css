@@ -1,0 +1,42 @@
+@import './scrollbar.css';
+
+@layer base {
+	
+  * {
+		@apply !outline-none;
+		-webkit-user-drag: none;
+  }
+
+	::selection {
+		@apply bg-brand text-white;
+	}
+
+  html {
+		@apply scroll-smooth; 
+  }
+  
+  body {
+		@apply min-h-screen overflow-x-hidden bg-gray-800 text-gray-300 font-normal;
+
+		&::-webkit-scrollbar {
+			@apply !w-4;
+		
+			&-thumb {
+				@apply border-4 bg-gray-400 hover:bg-brand;
+			}
+		}
+	}
+	
+  i {
+		@apply text-base !leading-0;
+  }
+
+	svg {
+		@apply w-4 h-4 inline-block;
+	}
+
+	img {
+		@apply w-full max-w-full;
+	}
+
+}

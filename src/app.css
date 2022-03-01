@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import "tailwindcss/base";
+@import "css/base/.index.css";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+	font-family: "Montserrat", sans-serif;
+}
+
+.content {
+	@apply leading-7;
+	*:not(:last-child):not(li) {
+		@apply mb-4;
+	}
+	h1 {
+		@apply text-5xl font-black;
+	}
+	h2, h3, h4, h5, h6 {
+		@apply mt-8 font-bold;
+	}
+	h1, h2, h3 {
+		@apply capitalize;
+	}
+	h2 { @apply text-4xl; }
+	h3 { @apply text-3xl; }
+	h4 { @apply text-2xl; }
+	h5 { @apply text-xl; }
+	h6 { @apply text-lg; }
+	
+	img, video {
+		@apply rounded;
+	}
+
+	ul, ol {
+		@apply list-inside;
+
+		ul, ol {
+			@apply ml-5;
+		}
+	}
+	ul {
+		@apply list-disc;
+	}
+	ol {
+		@apply list-decimal;
+	}
+
+	a {
+		@apply text-brand-400 hover:underline decoration-wavy break-words;
+	}
+
+	blockquote {
+		@apply relative bg-white bg-opacity-5 p-4 rounded leading-6 text-sm text-gray-300;
+
+		blockquote:not(first-child) {
+			@apply mt-6;
+		}
+	
+		&::before {
+			content: '""';
+			@apply absolute -top-2.5 left-2 font-black text-xl opacity-25;
+		}
+	}
+}
