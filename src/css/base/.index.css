@@ -22,6 +22,10 @@
 			}
 		}
 	}
+
+	b {
+		@apply font-semibold;
+	}
 	
   i {
 		@apply text-base !leading-0;
