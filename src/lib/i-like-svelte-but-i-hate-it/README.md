@@ -89,6 +89,20 @@ You can't find Rich Harris in the Svelte's Discord community. Sense 2020 taht I 
 
 I like the tool but not the everything that comes with it that it's *absolutely disgusting*.
 
+### They are just showing you what you want to see!
+
+They are telling you they Svelte supports A11Y, it even punishes the developers for not following the A11Y best practices!. But the true story is that the Svelte documentation itself doesn't even follow the basics of A11Y!. Besides that, Svelte docs don't even have a dark mode!. This is a similar story to saying that we are gonna fundraise some money and give it to poor people but in reality, they don't give a f^ck about poor people!. They also don't give an f^ck about developers. They are some most-requested feature requests in Svelte GitHub but they just don't give an f^ck about what you need and about your pinions.
+
+You can verify this by talking with other Svelte devs and seeing it with your own eyes in Svelte GitHub.
+
+### Stop punishing me for not following the A11Y best practices - A11Y 💩
+
+Svelte punishes you for not following A11Y best practices and the Svelte team doesn't give a f^ck about it. They don't even provide you an option to disable the warnings!. So you endup with something like this:
+
+![A screenshot of Svelte A11Y warnings in vsCode console after running the web app](/md/6.png)
+
+Svelte doesn't even fully support A11Y and it's not smart enough to warn you whenever you don't comply. **Such a B💩**
+
 ## Other negative things about Svelte
 
 I already explained some of the negative points of Svelte but it's literally endless😐 So let's talk more.
