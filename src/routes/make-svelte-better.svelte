@@ -18,7 +18,7 @@
 
 <svelte:head>
 	<title>Make Svelte Better</title>
-	<meta name="description" content="Some feature requests and enhancements that need to happen in Svelte." />
+	<meta name="description" content="Missing features in Svelte..." />
 </svelte:head>
 
 <AlsoRead title="I Like Svelte But, I Hate It!" href="/" />
