@@ -72,7 +72,7 @@ This is the whole conversation:
 
 <video controls>
   <source src="/md/3.mp4" type="video/mp4">
-	<track kind="captions" label="A full conversation of me talking with one of the maintainers of Svelte on Discord">
+	<track kind="captions" label="A full conversation of me talking with one of the maintainers of Svelte on Discord (Kev#3238)">
 </video>
 
 ### Maintainers don't know anything about how to manage a community
