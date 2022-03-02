@@ -1,4 +1,7 @@
 <script>
+	import PostDate from '$lib/PostDate.svelte'
+	import AlsoRead from '$lib/AlsoRead.svelte'
+	
 	import README from '$lib/i-like-svelte-but-i-hate-it/README.md'
 </script>
 
@@ -7,11 +10,8 @@
 	<meta name="description" content="I'm using Svelte sense 2020 and this is why I really hate it." />
 </svelte:head>
 
-<p>
-	<span>Also read:</span>
-	<a class="py-3 px-4" href="/make-svelte-better">Make Svelte Better</a>
-</p>
-<hr>
-<br>
+<AlsoRead title="Make Svelte Better" href="/make-svelte-better" />
+
+<PostDate modify="28/02/2022" publish="02/03/2022" />
 
 <README />

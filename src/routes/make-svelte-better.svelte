@@ -1,4 +1,7 @@
 <script>
+	import PostDate from '$lib/PostDate.svelte'
+	import AlsoRead from '$lib/AlsoRead.svelte'
+
 	import CodeBlocksInHTML from '$lib/make-svelte-better/01. Code Blocks In HTML .md'
 	import DynamicHTMLTag from '$lib/make-svelte-better/04. Dynamic HTML Tag .md'
 	import ClassProp from '$lib/make-svelte-better/05. Class Prop .md'
@@ -18,12 +21,9 @@
 	<meta name="description" content="Some feature requests and enhancements that need to happen in Svelte." />
 </svelte:head>
 
-<p>
-	<span>Also read:</span>
-	<a class="py-3 px-4" href="/">I Like Svelte But, I Hate It!</a>
-</p>
-<hr>
-<br>
+<AlsoRead title="I Like Svelte But, I Hate It!" href="/" />
+
+<PostDate modify="28/02/2022" publish="02/03/2022" />
 
 <h1>Make Svelte Better</h1>
 
