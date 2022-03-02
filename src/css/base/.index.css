@@ -18,7 +18,7 @@
 			@apply !w-4;
 		
 			&-thumb {
-				@apply border-4 bg-gray-400 hover:bg-brand;
+				@apply border-4 bg-gray-500 hover:bg-brand;
 			}
 		}
 	}

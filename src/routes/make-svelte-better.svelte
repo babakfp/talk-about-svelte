@@ -1,7 +1,7 @@
 <script>
 	import CodeBlocksInHTML from '$lib/make-svelte-better/01. Code Blocks In HTML .md'
 	import DynamicHTMLTag from '$lib/make-svelte-better/04. Dynamic HTML Tag .md'
-	import ClassProp from '$lib/make-svelte-better/05. Class Prop  .md'
+	import ClassProp from '$lib/make-svelte-better/05. Class Prop .md'
 	import Translation from '$lib/make-svelte-better/06. Translation .md'
 	import CreateEventDispatcher from '$lib/make-svelte-better/07. Create Event Dispatcher .md'
 	import CommentsSyntax from '$lib/make-svelte-better/08. Comments Syntax .md'
