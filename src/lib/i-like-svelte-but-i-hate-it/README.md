@@ -75,6 +75,10 @@ This is the whole conversation:
 	<track kind="captions" label="A full conversation of me talking with one of the maintainers of Svelte on Discord (Kev#3238)">
 </video>
 
+This is what you can expect from a Svelte maintainer👇. After the above conversation, he unfriended me so I couldn't message him.
+
+![A screenshot of me sending a friend request (on Discord) to a Svelte maintainer (Kev#3238) and the friend request gets failed because he blocked me or something](/md/7.png)
+
 ### Maintainers don't know anything about how to manage a community
 
 Svelte maintainers don't know what the heck they are doing. Did anyone see the Svelte Summit live 🐕💩 video quality? They don't even try to do a good job. Svelte maintainers never managed a community before so they are doing dumb 💩 all the time. You can easily find toxic people in Svelte's GitHub and Discord community and the maintainers don't/won't do anything about it, but for sure they will ban you for life for no reason.
