@@ -69,16 +69,24 @@ body {
 	}
 }
 
+em {
+	@apply text-gray-200;
+}
+
 a {
 	@apply text-brand-400 hover:underline decoration-wavy break-words;
 }
 
+pre[class*=language-]  {
+	@apply p-4;
+}
+
 :not(pre)>code[class*=language-], pre[class*=language-] {
-	@apply bg-white bg-opacity-5 rounded leading-7;
+	@apply bg-white bg-opacity-5 rounded leading-7 text-sm;
 }
 
 :not(pre)>code {
-	@apply py-0.5 px-1 bg-white bg-opacity-10 rounded;
+	@apply p-1 bg-white bg-opacity-10 rounded text-sm;
 }
 
 code, code[class*=language-], pre[class*=language-] {
