@@ -23,7 +23,7 @@
 
 <AlsoRead title="I Like Svelte But, I Hate It!" href="/" />
 
-<PostDate modify="28/02/2022" publish="02/03/2022" />
+<PostDate modify="04/03/2022" publish="28/02/2022" />
 
 <h1>Make Svelte Better</h1>
 
