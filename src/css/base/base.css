@@ -40,4 +40,8 @@
 		@apply w-full max-w-full;
 	}
 
+	a {
+		@apply text-brand-400 hover:underline decoration-wavy break-words;
+	}
+
 }
