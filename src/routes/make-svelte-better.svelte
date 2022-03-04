@@ -2,7 +2,7 @@
 	import PostDate from '$lib/PostDate.svelte'
 	import AlsoRead from '$lib/AlsoRead.svelte'
 
-	import CodeBlocksInHTML from '$lib/make-svelte-better/01. Code Blocks In HTML .md'
+	import LogicBlocks from '$lib/make-svelte-better/01. Logic Blocks .md'
 	import DynamicHTMLTag from '$lib/make-svelte-better/04. Dynamic HTML Tag .md'
 	import ClassProp from '$lib/make-svelte-better/05. Class Prop .md'
 	import Translation from '$lib/make-svelte-better/06. Translation .md'
@@ -27,7 +27,7 @@
 
 <h1>Make Svelte Better</h1>
 
-<CodeBlocksInHTML />
+<LogicBlocks />
 <hr>
 <DynamicHTMLTag />
 <hr>
