@@ -88,6 +88,10 @@ Everything went well🤩, just kidding. My heart got broken. To be honest, I was
 	<track kind="captions" label="A full conversation of me talking with another maintainer of Svelte on Discord (pngwn#8431)">
 </video>
 
+Oh right, my fake Discord account <img class="inline-block w-20" src="/md/9.png" alt="A screenshot of my face Discord account avatar(a kitty with a pink background) and username(Windy#4111)" /> got blocked after this. I guess [don't make silly mistakes like this😂](https://github.com/sveltejs/svelte/pull/7290):
+
+![A screenshot of my silly mistake that got my fake Discord account banned from the Svelte Discord group. It shows I created a PR with the fake account and committed with the original account](/md/10.png)
+
 ### Maintainers don't know anything about how to manage a community
 
 Svelte maintainers don't know what the heck they are doing. Did anyone see the Svelte Summit live 🐕💩 video quality? They don't even try to do a good job. Svelte maintainers never managed a community before so they are doing dumb 💩 all the time. You can easily find toxic people in Svelte's GitHub and Discord community and the maintainers don't/won't do anything about it, but for sure they will ban you for life for no reason.
