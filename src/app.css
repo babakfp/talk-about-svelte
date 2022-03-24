@@ -9,7 +9,7 @@
 	*:not(:last-child):not(li) { @apply mb-4 }
 
 	h1 { @apply text-4xl font-black sm:text-5xl }
-	h2, h3, h4, h5, h6 { @apply mt-8 font-bold }
+	h2, h3, h4, h5, h6 { @apply mt-12 font-bold }
 	h1, h2, h3 { @apply capitalize }
 	h2 { @apply text-3xl sm:text-4xl }
 	h3 { @apply text-2xl sm:text-3xl }
@@ -42,7 +42,7 @@
 		}
 	}
 
-	hr { @apply opacity-20 }
+	hr { @apply opacity-20 !my-12 }
 
 	em { @apply text-gray-200 }
 }
