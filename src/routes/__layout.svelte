@@ -29,8 +29,19 @@
 	</nav>
 </header>
 
-<main class="container py-8 sm:py-20">
-	<div class="max-w-3xl mx-auto">
+<main class="relative container py-8 sm:py-20">
+	<div class="absolute inset-0 bg-bottom bg-gradient-to-b from-transparent to-gray-900 border-b border-white border-opacity-5"></div>
+
+	<div class="relative max-w-3xl mx-auto z-10">
 		<slot />
 	</div>
 </main>
+
+<style>
+	main {
+		min-height: calc(100vh - 3.5rem)
+	}
+	div.absolute {
+		background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='32' height='32' fill='none' stroke='rgb(148 163 184 / 0.03)'%3e%3cpath d='M0 .5H31.5V32'/%3e%3c/svg%3e");
+	}
+</style>

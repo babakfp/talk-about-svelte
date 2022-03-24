@@ -42,7 +42,7 @@
 		}
 	}
 
-	hr { @apply opacity-25 }
+	hr { @apply opacity-20 }
 
 	em { @apply text-gray-200 }
 }
@@ -52,11 +52,11 @@ pre[class*=language-]  {
 }
 
 :not(pre)>code[class*=language-], pre[class*=language-] {
-	@apply bg-white bg-opacity-5 rounded leading-7 text-sm;
+	@apply bg-white bg-opacity-5 backdrop-blur rounded leading-7 text-sm;
 }
 
 :not(pre)>code {
-	@apply p-1 bg-white bg-opacity-10 rounded text-sm;
+	@apply p-1 bg-white bg-opacity-10 backdrop-blur rounded text-sm;
 }
 
 code, code[class*=language-], pre[class*=language-] {
