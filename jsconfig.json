@@ -3,10 +3,12 @@
 	"compilerOptions": {
 		"baseUrl": ".",
 		"paths": {
-			"$lib": ["src/lib"],
-			"$lib/*": ["src/lib/*"],
-			"$store": ["src/store"],
-			"$store/*": ["src/store/*"]
+			":lib": ["src/lib"],
+			":lib/*": ["src/lib/*"],
+			":store": ["src/store"],
+			":store/*": ["src/store/*"],
+			":components": ["src/components"],
+			":components/*": ["src/components/*"]
 		}
 	},
 	"include": ["src/**/*.js", "src/**/*.svelte"]

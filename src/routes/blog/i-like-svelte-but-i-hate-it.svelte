@@ -1,8 +1,8 @@
 <script>
-	import PostDate from '$lib/PostDate.svelte'
-	import AlsoRead from '$lib/AlsoRead.svelte'
+	import PostDate from ':lib/PostDate.svelte'
+	import AlsoRead from ':lib/AlsoRead.svelte'
 
-	import README from '$lib/i-like-svelte-but-i-hate-it/README.md'
+	import README from ':lib/i-like-svelte-but-i-hate-it/README.md'
 </script>
 
 <svelte:head>
