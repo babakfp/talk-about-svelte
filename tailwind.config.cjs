@@ -1,4 +1,5 @@
 const colors = require('tailwindcss/colors')
+const overflowUtilities = require('./src/utilities/tailwind/utilities/overflow.cjs')
 
 const config = {
   content: ['./src/**/*.{html,js,svelte,md}'],
@@ -30,7 +31,9 @@ const config = {
 			en: ['"Poppins"', 'sans-serif'],
 		},
   },
-  plugins: [],
+  plugins: [
+		overflowUtilities,
+	],
 }
 
 module.exports = config

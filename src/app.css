@@ -1,7 +1,8 @@
 @import "tailwindcss/base";
-@import "css/base/.index.css";
+@import "css/base/_index.css";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+@import "css/utilities/_index.css";
 
 .content {
 	@apply leading-7;
