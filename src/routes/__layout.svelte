@@ -14,7 +14,7 @@
 	let isNavMenuOpen = false
 </script>
 
-<header class="container z-50 sticky top-0 bg-gray-800 bg-opacity-25 backdrop-blur-xl rounded text-gray-200 text-sm">
+<header class="container z-50 sticky top-0 bg-white bg-opacity-5 backdrop-blur-xl rounded text-gray-200 text-sm">
 	<nav class="max-w-3xl mx-auto h-14 flex items-center justify-between">
 		<ul>
 			{#each navItems as item}
