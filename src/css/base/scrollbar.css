@@ -2,11 +2,15 @@
 
 	::-webkit-scrollbar {
 		@apply w-1.5 h-1.5;
+
+		&-thumb {
+			@apply rounded-full bg-gray-300 bg-clip-padding;
+			border: 2px solid transparent;
+		}
 	}
 
-	::-webkit-scrollbar-thumb {
-		@apply rounded-full bg-gray-500 bg-clip-padding;
-		border: 2px solid transparent;
+	@supports not (overflow: overlay) {
+		::-webkit-scrollbar { @apply bg-gray-200 }
 	}
 
 }
