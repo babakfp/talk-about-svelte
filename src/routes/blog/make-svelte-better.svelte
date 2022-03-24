@@ -1,6 +1,5 @@
 <script>
-	import PostDate from ':lib/PostDate.svelte'
-	import AlsoRead from ':lib/AlsoRead.svelte'
+	import { AlsoRead, PostDate } from ':components/Post'
 
 	import LogicBlocks from ':lib/make-svelte-better/01. Logic Blocks .md'
 	import DynamicHTMLTag from ':lib/make-svelte-better/04. Dynamic HTML Tag .md'
