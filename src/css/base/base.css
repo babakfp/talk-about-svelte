@@ -2,9 +2,18 @@
 
 @layer base {
 
+	::selection {
+		@apply bg-yellow-100 text-gray-800;
+	}
+
 	* {
 		@apply !outline-none;
 		-webkit-user-drag: none;
+  }
+
+	html,
+	body {
+		@apply h-full;
   }
 
   html {
@@ -12,36 +21,36 @@
   }
   
   body {
-		@apply min-h-screen overflow-x-hidden bg-gray-800 text-gray-300 font-normal;
-		font-family: 'Poppins', sans-serif;
+		@apply min-h-screen overflow-x-hidden bg-gray-800 text-gray-300 font-en;
 
 		&::-webkit-scrollbar {
 			@apply !w-4;
-		
+
 			&-thumb {
-				@apply border-4 bg-gray-500 hover:bg-brand;
+				@apply border-4 hover:bg-gray-400;
 			}
 		}
 	}
 
-	b {
-		@apply font-semibold;
+	a {
+		@apply text-brand-400 decoration-wavy break-words duration-150 hover:underline;
 	}
-	
-  i {
-		@apply text-base !leading-0;
-  }
 
-	svg {
-		@apply w-4 h-4 inline-block;
+	b,
+	strong {
+		@apply font-semibold;
 	}
 
 	img {
 		@apply w-full max-w-full;
 	}
+	
+  i {
+		@apply text-inherit text-base !leading-0;
+  }
 
-	a {
-		@apply text-brand-400 hover:underline decoration-wavy break-words;
+	svg {
+		@apply w-4 h-4 inline-block;
 	}
 
 }

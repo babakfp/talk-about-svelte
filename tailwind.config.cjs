@@ -25,7 +25,10 @@ const config = {
 		container: {
 			center: true,
 			padding: '1rem',
-		}
+		},
+		fontFamily: {
+			en: ['"Poppins"', 'sans-serif'],
+		},
   },
   plugins: [],
 }
