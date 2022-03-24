@@ -22,6 +22,9 @@ const config = {
 			lineHeight: {
 				0: '0',
 			},
+			borderWidth: {
+				3: '3px',
+			},
 		},
 		container: {
 			center: true,
