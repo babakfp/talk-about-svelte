@@ -33,7 +33,7 @@
 	}
 
 	a {
-		@apply text-brand-400 decoration-wavy break-words duration-150 hover:underline;
+		@apply duration-150;
 	}
 
 	b,

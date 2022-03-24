@@ -1,17 +1,12 @@
 <script>
-	import PostDate from '$lib/PostDate.svelte'
-	import AlsoRead from '$lib/AlsoRead.svelte'
-	
-	import README from '$lib/i-like-svelte-but-i-hate-it/README.md'
+	import { posts } from '$store/posts.js'
+	import PostCard from '$lib/PostCard.svelte'
 </script>
 
-<svelte:head>
-	<title>I Like Svelte But, I Hate It! - What nobody tells you!</title>
-	<meta name="description" content="I'm using Svelte sense 2020 and this is why I really hate it." />
-</svelte:head>
+<h1 class="text-3xl text-center font-semibold text-gray-200 lg:text-3xl lg:font-bold">Talk About Svelte</h1>
 
-<AlsoRead title="Make Svelte Better" href="/make-svelte-better" isNew={true} />
-
-<PostDate modify="2022-03-07" publish="2022-02-28" />
-
-<README />
+<div class="grid gap-4 mt-8">
+	{#each $posts as post}
+		<PostCard {...post} />
+	{/each}
+</div>

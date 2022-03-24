@@ -19,10 +19,10 @@
 
 <svelte:head>
 	<title>Make Svelte Better</title>
-	<meta name="description" content="Missing features in Svelte..." />
+	<meta name="description" content="Missing features and etc in Svelte..." />
 </svelte:head>
 
-<AlsoRead title="I Like Svelte But, I Hate It!" href="/" />
+<AlsoRead title="I Like Svelte But, I Hate It!" href="/blog/i-like-svelte-but-i-hate-it" />
 
 <PostDate modify="2022-03-14" publish="2022-02-28" />
 
