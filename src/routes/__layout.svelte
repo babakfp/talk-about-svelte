@@ -1,8 +1,8 @@
 <script>
   import '../app.css'
 
-	import { NavItem } from ':components/Header'
-	import { githubRepo } from ':store/github-repo.js'
+	import { NavItem } from '$components/Header'
+	import { githubRepo } from '$store/github-repo.js'
 	
 	const navItems = [
 		{

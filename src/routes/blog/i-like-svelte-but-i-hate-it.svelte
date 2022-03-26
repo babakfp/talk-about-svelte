@@ -1,7 +1,7 @@
 <script>
-	import { AlsoRead, PostDate } from ':components/Post'
+	import { AlsoRead, PostDate } from '$components/Post'
 
-	import README from ':lib/i-like-svelte-but-i-hate-it/README.md'
+	import README from '$lib/i-like-svelte-but-i-hate-it/README.md'
 </script>
 
 <svelte:head>

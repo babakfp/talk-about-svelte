@@ -9,8 +9,8 @@
 <script>
 	import { dev } from '$app/env'
 
-	import { posts } from ':store/posts.js'
-	import { PostCard } from ':components/Post'
+	import { posts } from '$store/posts.js'
+	import { PostCard } from '$components/Post'
 
 	export let error
 	export let status
