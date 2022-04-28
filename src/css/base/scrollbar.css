@@ -4,7 +4,7 @@
 		@apply w-1.5 h-1.5;
 
 		&-thumb {
-			@apply rounded-full bg-gray-500 bg-clip-padding;
+			@apply min-h-16 rounded-full bg-gray-500 bg-clip-padding;
 			border: 2px solid transparent;
 		}
 	}

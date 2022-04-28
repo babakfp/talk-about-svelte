@@ -24,7 +24,7 @@
 		@apply min-h-screen overflow-x-hidden bg-gray-800 text-gray-300 font-en;
 
 		&::-webkit-scrollbar {
-			@apply !w-4;
+			@apply !w-3;
 
 			&-thumb {
 				@apply border-4 hover:bg-gray-400;

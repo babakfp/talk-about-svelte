@@ -20,7 +20,7 @@
 	h1 code, h2 code, h3 code, h4 code, h5 code, h6 code { text-transform: none;}
 
 	a {
-		@apply text-brand-400 decoration-wavy break-words hover:underline;
+		@apply text-brand-400 break-words hover:underline;
 	}
 
 	p img { @apply !mb-0 }
@@ -42,7 +42,7 @@
 		}
 	}
 
-	hr { @apply opacity-20 !my-12 }
+	hr { @apply opacity-10 !my-12 }
 
 	em { @apply text-gray-200 }
 }

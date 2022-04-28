@@ -5,6 +5,7 @@ const config = {
   content: ['./src/**/*.{html,js,svelte,md}'],
   theme: {
     extend: {
+			minHeight: theme => theme('spacing'),
 			colors: {
 				gray: colors.neutral,
 				brand: {
@@ -14,7 +15,7 @@ const config = {
 				},
 			},
 			borderRadius: {
-				DEFAULT: '6px',
+				DEFAULT: '8px',
 			},
 			fontSize: {
 				'2xs': ['0.625rem', { lineHeight: '1' }],
