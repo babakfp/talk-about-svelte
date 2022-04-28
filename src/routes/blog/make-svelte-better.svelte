@@ -8,7 +8,7 @@
 	import CommentsSyntax from '$lib/make-svelte-better/08. Comments .md'
 	import CSSScope from '$lib/make-svelte-better/09. CSS Scope .md'
 	import A11Y from '$lib/make-svelte-better/10. A11Y .md'
-	import Documentations from '$lib/make-svelte-better/11. Documentations .md'
+	import Docs from '$lib/make-svelte-better/11. Docs .md'
 	import ParentChilds from '$lib/make-svelte-better/12. Parent Childs .md'
 	import Tick from '$lib/make-svelte-better/13. Tick .md'
 	import DynamicClasses from '$lib/make-svelte-better/14. Dynamic Classes .md'
@@ -41,7 +41,7 @@
 <hr />
 <A11Y />
 <hr />
-<Documentations />
+<Docs />
 <hr />
 <ParentChilds />
 <hr />
