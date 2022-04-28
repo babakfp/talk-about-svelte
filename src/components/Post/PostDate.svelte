@@ -1,9 +1,9 @@
 <script>
-	export let modify
-	export let publish
+	export let modifiedAt
+	export let bublishedAt
 </script>
 
 <div class="text-xs flex flex-wrap gap-4 opacity-50">
-	<span>Modified at: <b>{modify}</b></span>
-	<span>Published at: <b>{publish}</b></span>
+	<span>Modified at: <b>{modifiedAt}</b></span>
+	<span>Published at: <b>{bublishedAt}</b></span>
 </div>

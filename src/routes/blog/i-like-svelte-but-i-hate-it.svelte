@@ -11,6 +11,6 @@
 
 <AlsoRead title="Make Svelte Better" href="/blog/make-svelte-better" />
 
-<PostDate modify="2022-03-07" publish="2022-02-28" />
+<PostDate modifiedAt="2022-04-28" bublishedAt="2022-02-28" />
 
 <README />
