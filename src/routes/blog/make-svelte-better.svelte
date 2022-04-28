@@ -31,8 +31,6 @@
 <hr />
 <ClassProp />
 <hr />
-<Translation />
-<hr />
 <CreateEventDispatcher />
 <hr />
 <CommentsSyntax />
@@ -41,8 +39,6 @@
 <hr />
 <A11Y />
 <hr />
-<Docs />
-<hr />
 <ParentChilds />
 <hr />
 <Tick />
@@ -50,6 +46,10 @@
 <DynamicClasses />
 <hr />
 <PortIsAlreadyInUse />
+<hr />
+<Docs />
+<hr />
+<Translation />
 <hr />
 <DynamicHTMLTag />
 
