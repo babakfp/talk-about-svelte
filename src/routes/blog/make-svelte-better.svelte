@@ -2,7 +2,6 @@
 	import { AlsoRead, PostDate } from '$components/Post'
 
 	import LogicBlocks from '$lib/make-svelte-better/01. Logic Blocks .md'
-	import DynamicHTMLTag from '$lib/make-svelte-better/04. Dynamic HTML Tag .md'
 	import ClassProp from '$lib/make-svelte-better/05. Class Prop .md'
 	import Translation from '$lib/make-svelte-better/06. Translation .md'
 	import CreateEventDispatcher from '$lib/make-svelte-better/07. Create Event Dispatcher .md'
@@ -14,6 +13,7 @@
 	import Tick from '$lib/make-svelte-better/13. Tick .md'
 	import DynamicClasses from '$lib/make-svelte-better/14. Dynamic Classes .md'
 	import PortIsAlreadyInUse from '$lib/make-svelte-better/15. Port is already in use .md'
+	import DynamicHTMLTag from '$lib/make-svelte-better/04. Dynamic HTML Tag .md'
 </script>
 
 <svelte:head>
@@ -28,8 +28,6 @@
 <h1>Make Svelte Better</h1>
 
 <LogicBlocks />
-<hr>
-<DynamicHTMLTag />
 <hr>
 <ClassProp />
 <hr>
@@ -52,3 +50,5 @@
 <DynamicClasses />
 <hr>
 <PortIsAlreadyInUse />
+<hr>
+<DynamicHTMLTag />
