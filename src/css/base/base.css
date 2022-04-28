@@ -53,4 +53,8 @@
 		@apply w-4 h-4 inline-block;
 	}
 
+	hr {
+		@apply border-0 h-px bg-gray-300;
+	}
+
 }

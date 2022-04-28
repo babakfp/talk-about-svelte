@@ -28,27 +28,33 @@
 <h1>Make Svelte Better</h1>
 
 <LogicBlocks />
-<hr>
+<hr />
 <ClassProp />
-<hr>
+<hr />
 <Translation />
-<hr>
+<hr />
 <CreateEventDispatcher />
-<hr>
+<hr />
 <CommentsSyntax />
-<hr>
+<hr />
 <CSSScope />
-<hr>
+<hr />
 <A11Y />
-<hr>
+<hr />
 <Documentations />
-<hr>
+<hr />
 <ParentChilds />
-<hr>
+<hr />
 <Tick />
-<hr>
+<hr />
 <DynamicClasses />
-<hr>
+<hr />
 <PortIsAlreadyInUse />
-<hr>
+<hr />
 <DynamicHTMLTag />
+
+<style>
+	hr {
+		height: 3px;
+	}
+</style>
