@@ -2,8 +2,13 @@
 
 @layer base {
 
-	::selection {
+	*:not(pre):not(pre *):not(code)::selection {
 		@apply bg-yellow-100 text-gray-800;
+	}
+	pre::selection,
+	pre *::selection,
+	code::selection {
+		@apply bg-yellow-100 bg-opacity-10;
 	}
 
 	* {
