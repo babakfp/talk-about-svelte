@@ -79,7 +79,7 @@ This is what you can expect from a Svelte maintainer👇. After the above conver
 
 ![A screenshot of me sending a friend request (on Discord) to a Svelte maintainer (Kev#3238) and the friend request gets failed because he blocked me or something](/md/7.png)
 
-### I talked with another maintainer of Svelte <span class="text-2xs text-yellow-400">New</span>
+### I talked with another maintainer of Svelte
 
 Everything went well🤩, just kidding. My heart got broken. To be honest, I wasn't expecting much. I was expecting the same. Whatever, this is the whole conversation:
 

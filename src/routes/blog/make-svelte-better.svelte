@@ -14,6 +14,7 @@
 	import DynamicClasses from '$lib/make-svelte-better/14. Dynamic Classes .md'
 	import PortIsAlreadyInUse from '$lib/make-svelte-better/15. Port is already in use .md'
 	import DynamicHTMLTag from '$lib/make-svelte-better/04. Dynamic HTML Tag .md'
+	import BetterErrorHandling from '$lib/make-svelte-better/16. Better Error Handling .md'
 </script>
 
 <svelte:head>
@@ -44,6 +45,8 @@
 <Tick />
 <hr />
 <DynamicClasses />
+<hr />
+<BetterErrorHandling />
 <hr />
 <PortIsAlreadyInUse />
 <hr />
