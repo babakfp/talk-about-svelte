@@ -5,7 +5,7 @@
 	import ClassProp from '$lib/make-svelte-better/05. Class Prop .md'
 	import Translation from '$lib/make-svelte-better/06. Translation .md'
 	import CreateEventDispatcher from '$lib/make-svelte-better/07. Create Event Dispatcher .md'
-	import CommentsSyntax from '$lib/make-svelte-better/08. Comments Syntax .md'
+	import CommentsSyntax from '$lib/make-svelte-better/08. Comments .md'
 	import CSSScope from '$lib/make-svelte-better/09. CSS Scope .md'
 	import A11Y from '$lib/make-svelte-better/10. A11Y .md'
 	import Documentations from '$lib/make-svelte-better/11. Documentations .md'
