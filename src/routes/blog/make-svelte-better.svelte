@@ -9,7 +9,7 @@
 	import CSSScope from '$lib/make-svelte-better/09. CSS Scope .md'
 	import A11Y from '$lib/make-svelte-better/10. A11Y .md'
 	import Docs from '$lib/make-svelte-better/11. Docs .md'
-	import ParentChilds from '$lib/make-svelte-better/12. Parent Childs .md'
+	import ChildComponents from '$lib/make-svelte-better/12. Child Components .md'
 	import Tick from '$lib/make-svelte-better/13. Tick .md'
 	import DynamicClasses from '$lib/make-svelte-better/14. Dynamic Classes .md'
 	import PortIsAlreadyInUse from '$lib/make-svelte-better/15. Port is already in use .md'
@@ -40,7 +40,7 @@
 <hr />
 <A11Y />
 <hr />
-<ParentChilds />
+<ChildComponents />
 <hr />
 <Tick />
 <hr />
