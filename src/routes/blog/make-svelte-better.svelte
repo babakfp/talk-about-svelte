@@ -24,7 +24,7 @@
 
 <AlsoRead title="I Like Svelte But, I Hate It!" href="/blog/i-like-svelte-but-i-hate-it" />
 
-<PostDate modifiedAt="2022-04-28" bublishedAt="2022-02-28" />
+<PostDate modifiedAt="2022-04-30" bublishedAt="2022-02-28" />
 
 <h1>Make Svelte Better</h1>
 
