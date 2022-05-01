@@ -1,6 +1,6 @@
 <script>
 	import { AlsoRead, PostDate } from '$lib/Post'
-	import LogicBlocks from '$content/make-svelte-better/01. Logic Blocks .md'
+	import LogicBlocksSyntax from '$content/make-svelte-better/01. Logic Blocks Syntax .md'
 	import ClassProp from '$content/make-svelte-better/05. Class Prop .md'
 	import Translation from '$content/make-svelte-better/06. Translation .md'
 	import CreateEventDispatcher from '$content/make-svelte-better/07. Create Event Dispatcher .md'
@@ -27,7 +27,7 @@
 
 <h1>Make Svelte Better</h1>
 
-<LogicBlocks />
+<LogicBlocksSyntax />
 <hr />
 <ClassProp />
 <hr />
