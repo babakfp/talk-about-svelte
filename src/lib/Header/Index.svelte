@@ -1,5 +1,5 @@
 <script>
-	import { NavItem } from '$components/Header'
+	import { NavItem } from '$lib/Header'
 	import { githubRepo } from '$store/github-repo.js'
 	
 	const navItems = [

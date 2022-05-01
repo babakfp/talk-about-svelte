@@ -1,6 +1,6 @@
 <script>
 	import { posts } from '$store/posts.js'
-	import { PostCard } from '$components/Post'
+	import { PostCard } from '$lib/Post'
 </script>
 
 <h1 class="text-3xl text-center font-semibold text-gray-200 lg:text-3xl lg:font-bold">Talk About Svelte</h1>

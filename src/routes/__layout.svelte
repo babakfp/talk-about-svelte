@@ -1,6 +1,6 @@
 <script>
   import '../app.css'
-	import Header from '$components/Header/Index.svelte'
+	import Header from '$lib/Header/Index.svelte'
 </script>
 
 <div class="background-grid fixed inset-0 bg-bottom bg-gradient-to-b from-transparent to-gray-900"></div>

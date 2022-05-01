@@ -10,7 +10,7 @@
 	import { dev } from '$app/env'
 
 	import { posts } from '$store/posts.js'
-	import { PostCard } from '$components/Post'
+	import { PostCard } from '$lib/Post'
 
 	export let error
 	export let status

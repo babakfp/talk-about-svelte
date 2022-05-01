@@ -1,5 +1,5 @@
 <script>
-	import { AlsoRead, PostDate } from '$components/Post'
+	import { AlsoRead, PostDate } from '$lib/Post'
 	import LogicBlocks from '$lib/content/make-svelte-better/01. Logic Blocks .md'
 	import ClassProp from '$lib/content/make-svelte-better/05. Class Prop .md'
 	import Translation from '$lib/content/make-svelte-better/06. Translation .md'

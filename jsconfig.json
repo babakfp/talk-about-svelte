@@ -5,9 +5,7 @@
 			"$lib": ["src/lib"],
 			"$lib/*": ["src/lib/*"],
 			"$store": ["src/store"],
-			"$store/*": ["src/store/*"],
-			"$components": ["src/components"],
-			"$components/*": ["src/components/*"]
+			"$store/*": ["src/store/*"]
 		}
 	}
 }
