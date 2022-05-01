@@ -29,13 +29,11 @@
 
 		<hr class="border-white opacity-20 my-12">
 
-		<!-- {#if !dev} -->
-			<div class="grid gap-4">
-				{#each $posts as post}
-					<PostCard {...post} />
-				{/each}
-			</div>
-		<!-- {/if} -->
+		<div class="grid gap-4">
+			{#each $posts as post}
+				<PostCard {...post} />
+			{/each}
+		</div>
 
 	{:else}
 
