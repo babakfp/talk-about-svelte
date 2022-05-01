@@ -12,6 +12,7 @@ const config = {
 				alias: {
 					'$lib': path.resolve('src/lib'),
 					'$store': path.resolve('src/store'),
+					'$content': path.resolve('src/content'),
 				},
 			},
 		},

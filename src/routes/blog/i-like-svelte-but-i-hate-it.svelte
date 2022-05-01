@@ -1,6 +1,6 @@
 <script>
 	import { AlsoRead, PostDate } from '$lib/Post'
-	import README from '$lib/content/i-like-svelte-but-i-hate-it/README.md'
+	import README from '$content/i-like-svelte-but-i-hate-it/README.md'
 </script>
 
 <svelte:head>
