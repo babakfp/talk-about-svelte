@@ -37,14 +37,14 @@
 
 	{:else}
 
-		<h2 class="text-center">{error.message}</h2>
+		<h2 class="mt-4 text-center">{error.message}</h2>
 
 		{#if error.stack && dev}
-			<code class="scrollbar scrollbar-x-spacing-lg block mt-8 p-4 bg-gray-200 rounded dir-ltr lg:p-8">
-				<pre>
+			<pre class="language-undefined !mt-12">
+				<code>
 					{error.stack}
-				</pre>
-			</code>
+				</code>
+			</pre>
 		{/if}
 
 	{/if}
