@@ -29,10 +29,10 @@
 		@apply min-h-screen overflow-x-hidden bg-gray-800 text-gray-300 font-en;
 
 		&::-webkit-scrollbar {
-			@apply !w-3;
+			@apply !w-3 bg-gray-900;
 
 			&-thumb {
-				@apply border-4 hover:bg-gray-400;
+				@apply bg-gray-700 border-4 hover:bg-gray-500;
 			}
 		}
 	}
