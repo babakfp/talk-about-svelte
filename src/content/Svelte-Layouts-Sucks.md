@@ -4,7 +4,7 @@ Using layouts in your app is one of the easy and most straightforward things to 
 
 [SvelteKit : 4388](https://github.com/sveltejs/kit/pull/4388)
 
-After the above PR, SvelteKit layouts got even more ridiculous! You don't have the `__layout.reset.svelte` feature anymore. Now you need to use the new feature called Named Layouts. I don't know when Rich Harris will stop making file names unreadable. Docs sucks too, god knows what the hell is going on there. It's not really a hard job to do😐.
+After the above PR, SvelteKit layouts got even more ridiculous! You don't have the `__layout.reset.svelte` feature anymore. Now you need to use the new feature called Named Layouts. I don't know when Rich Harris will stop making file names unreadable. Docs sucks too, God knows what the hell is going on there. It's not really a hard job to write a readable documentation😐.
 
 - Docs sucks
 - Unreadable file names
