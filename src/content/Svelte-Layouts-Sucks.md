@@ -38,7 +38,7 @@ After the above PR, SvelteKit layouts got even more ridiculous! You don't have t
 
 ```HTML
 <script>
-	import { page } from '$app/stores'
+  import { page } from '$app/stores'
 
   // '<route>': <Layout Component>
   export let layouts = {}
@@ -67,8 +67,8 @@ After the above PR, SvelteKit layouts got even more ridiculous! You don't have t
 
 ```HTML
 <script>
-	import LayoutManager from '$layouts/LayoutManager.svelte'
-	import MainLayout from '$layouts/MainLayout.svelte'
+  import LayoutManager from '$layouts/LayoutManager.svelte'
+  import MainLayout from '$layouts/MainLayout.svelte'
 </script>
 
 <LayoutManager defaultLayout={MainLayout}>
@@ -82,10 +82,10 @@ You can add you routes and layouts like this:
 
 ```HTML
 <script>
-	import LayoutManager from '$layouts/LayoutManager.svelte'
-	import MainLayout from '$layouts/MainLayout.svelte'
-	import PotatoLayout from '$layouts/PotatoLayout.svelte'
-	import TomatoLayout from '$layouts/TomatoLayout.svelte'
+  import LayoutManager from '$layouts/LayoutManager.svelte'
+  import MainLayout from '$layouts/MainLayout.svelte'
+  import PotatoLayout from '$layouts/PotatoLayout.svelte'
+  import TomatoLayout from '$layouts/TomatoLayout.svelte'
 </script>
 
 <LayoutManager defaultLayout={MainLayout} layouts={{
