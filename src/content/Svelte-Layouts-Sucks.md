@@ -97,3 +97,7 @@ You can add you routes and layouts like this:
 ```
 
 You can add your own twist, like inheriting and etc.
+
+## Layouts Sucks
+
+Other thing that sucks about layouts is that sometimes when you change something in the layout, it doesn't get updated on the browser, so you need to refresh the page manualy.
