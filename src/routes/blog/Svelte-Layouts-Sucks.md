@@ -1,4 +1,20 @@
-# Svelte Layouts Sucks
+<script>
+	import { AlsoRead, PostDate } from '$lib/Post'
+  const title = 'Svelte Layouts Sucks'
+  const modifiedAt = '2022-05-11'
+  const bublishedAt = '2022-05-11'
+</script>
+
+<svelte:head>
+	<title>{title}</title>
+	<meta name="description" content="Why Svelte layouts sucks and what is the solution?" />
+</svelte:head>
+
+<AlsoRead title="I Like Svelte But, I Hate It!" href="/blog/i-like-svelte-but-i-hate-it" />
+
+<PostDate {modifiedAt} {bublishedAt} />
+
+# {title}
 
 Using layouts in your app is one of the easy and most straightforward things to do but it seems that Rich Harris is having problems with how the hell this simple feature should work!
 
