@@ -30,7 +30,7 @@
 		<hr class="border-white opacity-20 my-12">
 
 		<div class="grid gap-4">
-			{#each $posts as post}
+			{#each $posts.reverse() as post}
 				<PostCard {...post} />
 			{/each}
 		</div>
