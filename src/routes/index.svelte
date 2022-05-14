@@ -1,6 +1,6 @@
 <script>
 	import { posts } from '$store/posts.js'
-	import { PostCard } from '$lib/Post'
+	import { PostCard } from '$lib/Blog'
 </script>
 
 <svelte:head>

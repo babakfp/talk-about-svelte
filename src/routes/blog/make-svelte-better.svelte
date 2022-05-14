@@ -1,7 +1,7 @@
 <script>
   import { page } from '$app/stores'
   import { posts } from '$store/posts.js'
-	import { ReadThisToo, PostDate } from '$lib/Post'
+	import { ReadThisToo, PostDate } from '$lib/Blog'
   const { title, description, date, readThisToo } = $posts.filter(post => post.href === $page.url.pathname)[0]
 
 	import LogicBlocksSyntax from '$content/make-svelte-better/01. Logic Blocks Syntax .md'
