@@ -14,86 +14,22 @@
 
 # {title}
 
-A few days ago I complained about the new SvelteKit Named Layouts feature on this blog. That blog post is now gone because now I like the new Named Layout system. (You can find the deleted article on GitHub).
+So a few days ago, I complained about the new SvelteKit Named Layouts feature. That blog post is not available but you can find it on GitHub. In this blog post I'm going to talk about:
 
-I think the big factory that made me don't like the new Named Layouts system, was the fact that the docs are just not good enough for the end-user.
+- Why I first didn't like them?
+- How does it work?
+- And some problems!
 
-## How SvelteKit New Named Layout system works?
+## Why I first didn't like them?
 
-Example below is the simples way that you can use a layout for your pages:
+I'll blame the documentation. I'll also didn't thoroughly test them out, my bad.
 
-```
-├── 📂routes
-│   ├── 📄__layout.svelte
-│   ├── 📄index.svelte
-```
+## How does it work?
 
-<br>
+Since the documentation of SvelteKit sucks so bad, I'm going to teach you how Named Layouts works in SvelteKit. The first thing you need to do is to forget everything you know.
 
-All of your pages in that same directory and its subdirectories can use that layout template:
+SvelteKit version: `1.0.0-next.330`
 
-```
-├── 📂routes
-│   │   ├── 📂blog
-│   │   ├── 📄[id].svelte ✅
-│   │   ├── 📄index.svelte ✅
-│   ├── 📄__layout.svelte
-│   ├── 📄index.svelte ✅
-```
+---
 
-<br>
-
-Create a Named Layout, like this `__layout-<name>.svelte`:
-
-```
-├── 📂routes
-│   ├── 📄__layout-hello.svelte
-```
-
-<br>
-
-Use that named layout like this `index@<name>.svelte`:
-
-```
-├── 📂routes
-│   ├── 📄index@hello.svelte
-```
-
-<br>
-
-Same simple example:
-
-```
-├── 📂routes
-│   ├── 📄__layout-hello.svelte
-│   ├── 📄index@hello.svelte
-```
-
-If you don't add `@hello` to the `index.svelte` filename, that the page will not use that layout.
-
-<br>
-
-`index.svelte` will not use `__layout-hello.svelte`. Only `welcome@hello.svelte` can the layout:
-
-```
-├── 📂routes
-│   ├── 📄__layout-hello.svelte
-│   ├── 📄index.svelte
-│   ├── 📄welcome@hello.svelte
-```
-
-<br>
-
-- `index.svelte` will use `__layout.svelte`
-- `welcome@hello.svelte` will use `__layout-hello.svelte`
-
-```
-├── 📂routes
-│   ├── 📄__layout.svelte
-│   ├── 📄__layout-hello.svelte
-│   ├── 📄index.svelte
-│   ├── 📄welcome@hello.svelte
-```
-
-<br>
-
+COMING SOON!
