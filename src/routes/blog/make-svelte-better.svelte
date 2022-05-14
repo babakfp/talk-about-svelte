@@ -5,6 +5,7 @@
   const { title, description, date, readThisToo } = $posts.filter(post => post.href === $page.url.pathname)[0]
 
 	import LogicBlocksSyntax from '$content/make-svelte-better/01. Logic Blocks Syntax .md'
+	import Layouts from '$content/make-svelte-better/03. Layouts .md'
 	import ClassProp from '$content/make-svelte-better/05. Class Prop .md'
 	import Translation from '$content/make-svelte-better/06. Translation .md'
 	import CreateEventDispatcher from '$content/make-svelte-better/07. Create Event Dispatcher .md'
@@ -30,6 +31,8 @@
 <h1>{title}</h1>
 
 <LogicBlocksSyntax />
+<hr />
+<Layouts />
 <hr />
 <ClassProp />
 <hr />
@@ -57,8 +60,8 @@
 <hr />
 <DynamicHTMLTag />
 
-<style>
+<style lang="postcss">
 	hr {
-		height: 3px;
+    @apply h-1;
 	}
 </style>
