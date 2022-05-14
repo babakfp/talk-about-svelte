@@ -5,7 +5,7 @@
 </script>
 
 <a class="group relative p-6 bg-white bg-opacity-5 backdrop-blur-3xl rounded overflow-hidden text-gray-200 duration-300 ease-in-out hover:bg-opacity-10 lg:p-8" {href}>
-	<h2 class="font-medium text-lg lg:text-xl">{title}</h2>
+	<h2 class="font-bold text-lg lg:text-xl">{title}</h2>
 	<p class="mt-1 text-sm text-gray-400 lg:text-base">{description}</p>
 
 	<div class="absolute -right-8 top-6 flex duration-300 ease-in-out group-hover:right-8">

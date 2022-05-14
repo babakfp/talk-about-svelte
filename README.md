@@ -1,3 +1,3 @@
-# I Like Svelte But, I Hate It!
+# I like Svelte, but I hate it!
 
 [talk-about-svelte.vercel.app](https://talk-about-svelte.vercel.app/)

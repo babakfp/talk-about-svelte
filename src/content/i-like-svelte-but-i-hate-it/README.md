@@ -5,7 +5,7 @@
 	import TheDevtoArticleReply from './TheDevtoArticleReply.md'
 </script>
 
-# I like Svelte but, I hate it!
+# I like Svelte, but I hate it!
 
 *I'm angry, disappointed, and hopeful.* Why I hate Svelte?, Why I like Svelte, What is the possitive and negative points of using Svelte?, Should you learn Svelte? Is learning Svelte worth it? I'm gonna answer them all.
 
@@ -20,7 +20,7 @@
 - MR. Rich Harris doesn't involve with the community.
 - It's not good to use third-party libraries in your Svelte project!.
 
-### I got blocked for a lifetime **from Svlete Discord group**
+### I got blocked for a lifetime from **Svlete Discord group**
 
 Svelte documentation UI sucks, right? In 2021 I designed a UI and a logo for SvelteKit. I sent them to the Discord group and we talked about the design and related stuff with some people in the group. In the middle of the conversation, *suddenly I got blocked and removed completely from the group!*. I didn't find any of my messages in the Discord group. They probably cleaned up everything after removing me😄. <a href="https://bit.ly/3tf6mPL" target="_blank" rel="nofollow">*You can download all UI and logo design source files I ever create for Svelte.*</a>
 
@@ -28,7 +28,7 @@ Svelte documentation UI sucks, right? In 2021 I designed a UI and a logo for Sve
 
 ![A GIF showing Join Svelte button doesn't work because I banned from the Svelte Discord community](/md/2.gif)
 
-### I got blocked for a lifetime **from Svelte GitHub repositories**
+### I got blocked for a lifetime from **Svelte GitHub repositories**
 
 It was so hard for me to use this dropdown, so I decided to fix it and send a PR. I did it but I couldn't predict what was going to happen after.
 
@@ -48,7 +48,7 @@ And here it is the comment that got me banned (this was removed after I got bann
 
 ![A screenshot of my GitHub account that shows I can't write comment in any SvelteJS repos, or I can't do even anything because I'm benned](/md/1.png)
 
-### I got blocked for a lifetime **from <a href="https://dev.to" target="_blank" rel="nofollow">dev.to</a> because of the article that I wrote about Svelte**
+### I got blocked for a lifetime from **<a href="https://dev.to" target="_blank" rel="nofollow">dev.to</a> because of the article that I wrote about Svelte**
 
 The same day after I got blocked from Svelte GitHub, I write an article about it and it's got me blocked because someone reported it. I don't know who reported it but it was someone that wasn't happy about its content. Well, this is the article:
 
