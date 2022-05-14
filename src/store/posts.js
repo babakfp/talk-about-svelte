@@ -5,7 +5,27 @@ const defaultAlsoRead = {
   href: '/blog/i-like-svelte-but-i-hate-it',
 }
 
-const dbPosts = [
+export const posts = readable([
+  {
+		title: 'SvelteKit Named Layouts',
+		description: "Let's talk about it.",
+		href: '/blog/sveltekit-named-layouts',
+    date: {
+      modifiedAt: '2022-05-13',
+      publishedAt: '2022-05-13',
+    },
+    alsoRead: defaultAlsoRead,
+	},
+  {
+		title: 'Make Svelte Better',
+		description: 'Missing features and etc in Svelte...',
+		href: '/blog/make-svelte-better',
+    date: {
+      modifiedAt: '2022-05-11',
+      publishedAt: '2022-02-28',
+    },
+    alsoRead: defaultAlsoRead,
+	},
   {
 		title: 'I like Svelte but, I hate it!',
 		description: "I'm using Svelte sense 2020 and this is why I really hate it.",
@@ -19,39 +39,4 @@ const dbPosts = [
       href: '/blog/make-svelte-better',
     },
 	},
-  {
-		title: 'Make Svelte Better',
-		description: 'Missing features and etc in Svelte...',
-		href: '/blog/make-svelte-better',
-    date: {
-      modifiedAt: '2022-05-11',
-      publishedAt: '2022-02-28',
-    },
-    alsoRead: defaultAlsoRead,
-	},
-  {
-    title: 'Svelte Layouts Sucks',
-		description: 'Why Svelte layouts sucks and what is the solution?',
-		href: '/blog/svelte-layouts-sucks',
-    date: {
-      modifiedAt: '2022-05-11',
-      publishedAt: '2022-05-11',
-    },
-    alsoRead: defaultAlsoRead,
-    hide: true,
-  },
-	{
-		title: 'How SvelteKit Named Layouts works',
-		description: "I didn't like SvelteKit new Named Layouts feature, but now I do! Let's talk about it.",
-		href: '/blog/how-sveltekit-named-layouts-works',
-    date: {
-      modifiedAt: '2022-05-13',
-      publishedAt: '2022-05-13',
-    },
-    alsoRead: defaultAlsoRead,
-	},
-]
-
-export const posts = readable(
-  dbPosts.filter(post => post.hide !== true)
-)
+])
