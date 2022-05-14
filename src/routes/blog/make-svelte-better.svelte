@@ -1,8 +1,8 @@
 <script>
   import { page } from '$app/stores'
   import { posts } from '$store/posts.js'
-	import { AlsoRead, PostDate } from '$lib/Post'
-  const { title, description, date, alsoRead } = $posts.filter(post => post.href === $page.url.pathname)[0]
+	import { ReadThisToo, PostDate } from '$lib/Post'
+  const { title, description, date, readThisToo } = $posts.filter(post => post.href === $page.url.pathname)[0]
 
 	import LogicBlocksSyntax from '$content/make-svelte-better/01. Logic Blocks Syntax .md'
 	import ClassProp from '$content/make-svelte-better/05. Class Prop .md'
@@ -24,7 +24,7 @@
 	<title>{title}</title>
 	<meta name="description" content={description} />
 </svelte:head>
-<AlsoRead {...alsoRead} />
+<ReadThisToo {...readThisToo} />
 <PostDate {...date} />
 
 <h1>{title}</h1>

@@ -1,10 +1,5 @@
 import { readable } from 'svelte/store'
 
-const defaultAlsoRead = {
-  title: 'I Like Svelte But, I Hate It!',
-  href: '/blog/i-like-svelte-but-i-hate-it',
-}
-
 export const posts = readable([
   {
 		title: 'Make Svelte Better',
@@ -14,7 +9,10 @@ export const posts = readable([
       modifiedAt: '2022-05-11',
       publishedAt: '2022-02-28',
     },
-    alsoRead: defaultAlsoRead,
+    readThisToo: {
+      title: 'I Like Svelte But, I Hate It!',
+      href: '/blog/i-like-svelte-but-i-hate-it',
+    },
 	},
   {
 		title: 'I like Svelte but, I hate it!',
@@ -24,7 +22,7 @@ export const posts = readable([
       modifiedAt: '2022-04-28',
       publishedAt: '2022-02-28',
     },
-    alsoRead: {
+    readThisToo: {
       title: 'Make Svelte Better',
       href: '/blog/make-svelte-better',
     },
