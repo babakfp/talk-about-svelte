@@ -1,18 +1,16 @@
 <script>
+  import { page } from '$app/stores'
+  import { posts } from '$store/posts.js'
 	import { AlsoRead, PostDate } from '$lib/Post'
-  const title = 'Svelte Layouts Sucks'
-  const modifiedAt = '2022-05-11'
-  const bublishedAt = '2022-05-11'
+  const { title, description, date, alsoRead } = $posts.filter(post => post.href === $page.url.pathname)[0]
 </script>
 
 <svelte:head>
 	<title>{title}</title>
-	<meta name="description" content="Why Svelte layouts sucks and what is the solution?" />
+	<meta name="description" content={description} />
 </svelte:head>
-
-<AlsoRead title="I Like Svelte But, I Hate It!" href="/blog/i-like-svelte-but-i-hate-it" />
-
-<PostDate {modifiedAt} {bublishedAt} />
+<AlsoRead {...alsoRead} />
+<PostDate {...date} />
 
 # {title}
 

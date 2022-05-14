@@ -27,7 +27,7 @@
 
 		<p class="mt-4 text-center">The page you were looking for could not be found.</p>
 
-		<hr class="border-white opacity-20 my-12">
+		<hr class="border-white opacity-10 my-8">
 
 		<div class="grid gap-4">
 			{#each $posts.reverse() as post}

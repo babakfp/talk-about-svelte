@@ -1,15 +1,17 @@
 <script>
+  import { page } from '$app/stores'
+  import { posts } from '$store/posts.js'
 	import { AlsoRead, PostDate } from '$lib/Post'
+  const { title, description, date, alsoRead } = $posts.filter(post => post.href === $page.url.pathname)[0]
+
 	import README from '$content/i-like-svelte-but-i-hate-it/README.md'
 </script>
 
 <svelte:head>
-	<title>I Like Svelte But, I Hate It! - What nobody tells you!</title>
-	<meta name="description" content="I'm using Svelte sense 2020 and this is why I really hate it." />
+	<title>{title} - What nobody tells you!</title>
+	<meta name="description" content={description} />
 </svelte:head>
-
-<AlsoRead title="Make Svelte Better" href="/blog/make-svelte-better" />
-
-<PostDate modifiedAt="2022-04-28" bublishedAt="2022-02-28" />
+<AlsoRead {...alsoRead} />
+<PostDate {...date} />
 
 <README />

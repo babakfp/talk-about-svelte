@@ -37,7 +37,7 @@
 
 		blockquote:not(first-child) { @apply mt-6 }
 	
-		&::before { @apply absolute -top-2.5 left-2 font-black text-xl opacity-25;
+		&::after { @apply absolute -top-2.5 left-2 font-black text-xl opacity-25;
 			content: '""';
 		}
 	}

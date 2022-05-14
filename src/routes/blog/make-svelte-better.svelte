@@ -1,5 +1,9 @@
 <script>
+  import { page } from '$app/stores'
+  import { posts } from '$store/posts.js'
 	import { AlsoRead, PostDate } from '$lib/Post'
+  const { title, description, date, alsoRead } = $posts.filter(post => post.href === $page.url.pathname)[0]
+
 	import LogicBlocksSyntax from '$content/make-svelte-better/01. Logic Blocks Syntax .md'
 	import ClassProp from '$content/make-svelte-better/05. Class Prop .md'
 	import Translation from '$content/make-svelte-better/06. Translation .md'
@@ -17,15 +21,13 @@
 </script>
 
 <svelte:head>
-	<title>Make Svelte Better</title>
-	<meta name="description" content="Missing features and etc in Svelte..." />
+	<title>{title}</title>
+	<meta name="description" content={description} />
 </svelte:head>
+<AlsoRead {...alsoRead} />
+<PostDate {...date} />
 
-<AlsoRead title="I Like Svelte But, I Hate It!" href="/blog/i-like-svelte-but-i-hate-it" />
-
-<PostDate modifiedAt="2022-05-11" bublishedAt="2022-02-28" />
-
-<h1>Make Svelte Better</h1>
+<h1>{title}</h1>
 
 <LogicBlocksSyntax />
 <hr />
