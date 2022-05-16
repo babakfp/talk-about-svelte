@@ -17,7 +17,7 @@
 	import Tick from '$content/make-svelte-better/13. Tick .md'
 	import DynamicClasses from '$content/make-svelte-better/14. Dynamic Classes .md'
 	import PortIsAlreadyInUse from '$content/make-svelte-better/15. Port is already in use .md'
-	import DynamicHTMLTag from '$content/make-svelte-better/04. Dynamic HTML Tag .md'
+	import DynamicHTMLTag from '$content/make-svelte-better/04. Dynamic HTML Tags .md'
 	import BetterErrorHandling from '$content/make-svelte-better/16. Better Error Handling .md'
 </script>
 
