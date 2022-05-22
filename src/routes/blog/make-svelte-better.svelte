@@ -8,7 +8,6 @@
 	import Layouts from '$content/make-svelte-better/03. Layouts .md'
 	import ClassProp from '$content/make-svelte-better/05. Class Prop .md'
 	import Translation from '$content/make-svelte-better/06. Translation .md'
-	import CreateEventDispatcher from '$content/make-svelte-better/07. Create Event Dispatcher .md'
 	import CommentsSyntax from '$content/make-svelte-better/08. Comments .md'
 	import CSSScope from '$content/make-svelte-better/09. CSS Scope .md'
 	import A11Y from '$content/make-svelte-better/10. A11Y .md'
@@ -35,8 +34,6 @@
 <Layouts />
 <hr />
 <ClassProp />
-<hr />
-<CreateEventDispatcher />
 <hr />
 <CommentsSyntax />
 <hr />
