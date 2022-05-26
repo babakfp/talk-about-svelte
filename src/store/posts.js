@@ -6,7 +6,7 @@ export const posts = readable([
 		description: "Let's talk about missing features in Svelte and more.",
 		href: '/blog/make-svelte-better',
     date: {
-      modifiedAt: '2022-05-11',
+      modifiedAt: '2022-05-27',
       publishedAt: '2022-02-28',
     },
     readThisToo: {
