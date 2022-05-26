@@ -12,7 +12,7 @@
 	{/if}
 </p>
 
-<hr>
+<hr />
 
 <style lang="postcss">
   hr {
