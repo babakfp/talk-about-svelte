@@ -1,7 +1,7 @@
 const colors = require('tailwindcss/colors')
 const overflowUtilities = require('./src/utilities/tailwind/utilities/overflow.cjs')
 
-const config = {
+module.exports = {
   content: ['./src/**/*.{html,js,svelte,md}'],
   theme: {
     extend: {
@@ -40,5 +40,3 @@ const config = {
 		overflowUtilities,
 	],
 }
-
-module.exports = config

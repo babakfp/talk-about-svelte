@@ -3,7 +3,7 @@ import preprocess from 'svelte-preprocess'
 import adapter from '@sveltejs/adapter-vercel'
 import { mdsvex } from 'mdsvex'
 
-const config = {
+export default {
 	extensions: ['.svelte', '.md'],
   kit: {
     adapter: adapter(),
@@ -26,5 +26,3 @@ const config = {
 		}),
   ],
 }
-
-export default config
