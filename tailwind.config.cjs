@@ -32,7 +32,8 @@ const config = {
 			padding: '1rem',
 		},
 		fontFamily: {
-			en: ['"Poppins"', 'sans-serif'],
+			en: ['Poppins', 'Vazirmatn', 'sans-serif'],
+      code: ['MonoLisa', 'Vazirmatn', 'Consolas', 'Monaco', '"Andale Mono"', '"Ubuntu Mono"', 'monospace'],
 		},
   },
   plugins: [
