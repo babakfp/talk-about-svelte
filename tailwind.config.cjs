@@ -7,7 +7,7 @@ module.exports = {
     extend: {
 			minHeight: theme => theme('spacing'),
 			colors: {
-				gray: colors.neutral,
+				gray: colors.slate,
 				brand: {
 					...colors.indigo,
 					DEFAULT: colors.indigo['600'],
