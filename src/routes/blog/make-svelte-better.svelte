@@ -4,20 +4,20 @@
 	import { ReadThisToo, PostDate } from '$lib/Blog'
   const { title, description, date, readThisToo } = $posts.filter(post => post.href === $page.url.pathname)[0]
 
-	import LogicBlocksSyntax from '$content/make-svelte-better/01. Logic Blocks Syntax .md'
+	import LogicBlocksSyntax from '$content/make-svelte-better/01. Logic blocks syntax .md'
 	import Layouts from '$content/make-svelte-better/03. Layouts .md'
-	import ClassProp from '$content/make-svelte-better/05. Class Prop .md'
+	import ClassProp from '$content/make-svelte-better/05. Class prop .md'
 	import Translation from '$content/make-svelte-better/06. Translation .md'
 	import CommentsSyntax from '$content/make-svelte-better/08. Comments .md'
-	import CSSScope from '$content/make-svelte-better/09. CSS Scope .md'
+	import CSSScope from '$content/make-svelte-better/09. CSS scope .md'
 	import A11Y from '$content/make-svelte-better/10. A11Y .md'
 	import Docs from '$content/make-svelte-better/11. Docs .md'
-	import ChildComponents from '$content/make-svelte-better/12. Child Components .md'
+	import ChildComponents from '$content/make-svelte-better/12. Child components .md'
 	import Tick from '$content/make-svelte-better/13. Tick .md'
-	import DynamicClasses from '$content/make-svelte-better/14. Dynamic Classes .md'
+	import DynamicClasses from '$content/make-svelte-better/14. Dynamic classes .md'
 	import PortIsAlreadyInUse from '$content/make-svelte-better/15. Port is already in use .md'
-	import DynamicHTMLTag from '$content/make-svelte-better/04. Dynamic HTML Tags .md'
-	import BetterErrorHandling from '$content/make-svelte-better/16. Better Error Handling .md'
+	import DynamicHTMLTag from '$content/make-svelte-better/04. Dynamic HTML tags .md'
+	import BetterErrorHandling from '$content/make-svelte-better/16. Better error handling .md'
 </script>
 
 <svelte:head>
